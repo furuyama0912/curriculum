@@ -55,5 +55,4 @@ public class Task1_4 {
             System.out.println(CONST_MSG_ERROR_INPUT);
         }
     }
-
 }
