@@ -3,13 +3,13 @@ import constants.Constants;
 
 public class Check {
 	
-	private String firstName = "shoichi";
-	private String lastName = "furuyama";
+	private static String firstName = "shoichi";
+	private static String lastName = "furuyama";
 	
 
     public static void main(String[] args) {
     	
-    	System.out.println("printNameメソッド→"+printName("古山","将一"));
+    	printName(firstName,lastName);
     	
     	Pet i = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
     	
@@ -19,10 +19,9 @@ public class Check {
     	
     	u.introduce();
     }
-    private static String printName (String firstName,String lastName) {
+    private static void printName (String firstName,String lastName) {
     	String fullName=firstName+lastName;
-    	return fullName;
-    	
+    	System.out.println( fullName);
     	
     }
     
