@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header{
+	background-color:gray;
+	display:flex;
+	height:50px;
+}
+
+.header-right{
+	line-height:50px;
+	font-size:10px;
+}
+
+.main{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.footer{
+	background-color:gray;
+	height:50px;
+}
+
+label{
+	display:block;
+	padding:10px;
+	color:white;
+	line-height:30px;
+}
